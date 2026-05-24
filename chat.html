@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L-M Chat ♛ - Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+</head>
+<body>
+
+    <div class="chat-container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <img id="my-avatar" src="" alt="DP" class="user-avatar">
+                <span id="my-username" class="gold-text">@loading</span>
+            </div>
+            <div class="search-box">
+                <input type="text" id="search-username" placeholder="යූසර් නම සර්ච් කරන්න...">
+                <button id="search-btn">🔍</button>
+            </div>
+            <div id="chat-list" class="chat-list"></div>
+        </div>
+
+        <div class="chat-area">
+            <div id="chat-header" class="chat-header hidden">
+                <img id="active-user-avatar" src="" class="user-avatar">
+                <h4 id="active-user-name">යාළුවෙක් තෝරන්න</h4>
+            </div>
+            <div id="message-display" class="message-display">
+                <p class="welcome-msg">L-M Chat ♛ වෙත සාදරයෙන් පිළිගනිමු!</p>
+            </div>
+            <div id="input-area" class="input-area hidden">
+                <input type="text" id="message-input" placeholder="මැසේජ් එකක් ටයිප් කරන්න...">
+                <button id="send-btn">🚀</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+</html>
