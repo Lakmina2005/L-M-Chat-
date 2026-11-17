@@ -1,0 +1,6 @@
+{
+  "name": "APP FORGE — HTML TO APK BUILDER",
+  "description": "Professional HTML App Builder, Live Virtual Phone Preview, Code Studio, AI Error Fixer, and Android Capacitor APK Project Generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

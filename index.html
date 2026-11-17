@@ -1,39 +1,20 @@
-<!DOCTYPE html>
-<html lang="si">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L-M Chat ♛ - Login</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
-</head>
-<body>
-
-    <div class="login-container">
-        <img src="https://static.vecteezy.com/system/resources/previews/014/747/856/non_2x/letter-lm-logo-with-luxury-gold-template-elegance-logo-template-vector.jpg" alt="L-M Chat Logo" class="app-logo">
-        <h2>L-M Chat ♛</h2>
-        <p class="tagline">යාළුවෝ එක්ක රහස් චැට් කරන්න</p>
-
-        <div id="auth-section">
-            <button id="google-login-btn" class="btn google-btn">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_\"G\"_Logo.svg" alt="Google">
-                Gmail එකෙන් ඇතුල්වන්න
-            </button>
-        </div>
-
-        <div id="username-section" class="hidden">
-            <h3>ඔයාටම අනන්‍ය Username එකක් හදාගන්න</h3>
-            <div class="input-group">
-                <span class="prefix">@</span>
-                <input type="text" id="username-input" placeholder="lakmina_2005" autocomplete="off">
-            </div>
-            <button id="save-username-btn" class="btn save-btn">වැඩේ ස්ථිර කරන්න</button>
-            <p id="error-msg" class="error"></p>
-        </div>
-    </div>
-
-    <script src="auth.js"></script>
-</body>
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APP FORGE — HTML TO APK BUILDER</title>
+    <meta name="description" content="Professional HTML App Builder, Live Virtual Phone Preview, Code Studio, AI Error Fixer, and Android Capacitor APK Project Generator." />
+    <meta property="og:title" content="APP FORGE — HTML TO APK BUILDER" />
+    <meta property="og:description" content="Build mobile web apps with live virtual phone preview, code editor, error detector, and export ready-to-compile Android Capacitor APK projects." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Sinhala:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-sky-500/20 selection:text-sky-600 dark:selection:text-sky-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
